@@ -1,0 +1,21 @@
+states_string: '''
+{
+  "states": [
+    {
+    "name": "Alabama",
+    "abbreviation": "AL",
+    "area-codes": ["205","657","458", "585"],
+    },
+    {
+    "name": "Alaska",
+    "abbreviation": "AK",
+    "area-codes": ["205","657","458", "585"],
+    },
+    {
+    "name": "Arkansas",
+    "abbreviation": "AR",
+    "area-codes": ["205","657","458", "585"],
+    }
+  ]
+}
+'''

@@ -1,0 +1,2 @@
+# Dictionaries are similar to javascript objects.
+# JSON relates to dictionaries heavily since it really is just moving information around. Python dictionaries can be converted with JSON and JSON will allow you to shell information in different formats including python dictionaries.
