@@ -67,8 +67,22 @@ import json
 
 # Loading JSON files into python objects (working with objects)
 from states import *
-with open('states.json') as f:
-  data = json.load(f)
 
-for state in data['state_string']:
-  print(state) 
+# Be careful when formatting json files and calling them in. Java is very case sensitive.
+with open('states.json') as file:
+  data = json.load(file)
+  print(data)
+
+# We can print out specific items that we want. 
+for state in data['states']:
+  print(state)
+
+# We can even call specific 
+for state in data['states']:
+  print(state['name'],state['abbreviation'])
+
+# Dumping allows you to convert python into json
+# Loading allows you to convert json into something that is readible for python.
+
+with('new_states.json', 'w') as f:
+  json.dump(data, f)
